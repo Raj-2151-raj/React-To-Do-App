@@ -1,60 +1,47 @@
-#  React To-Do App
+#  To-Do List App
 
-A simple and responsive To-Do List application built with **React** and **Vite**. This app allows users to add, delete, edit, and mark tasks as completed.
+A simple and beautiful **To-Do List application** built using **React** and **Vite**.  
+This app allows users to **add**, **edit**, **complete**, and **delete** tasks with a clean UI and gradient-styled buttons.
 
 ---
 
 ##  Features
 
--  Add new to-do tasks
--  Edit existing tasks
--  Delete tasks
--  Mark tasks as completed
--  Built using functional components, `useState`, and props
-- Clean and user-friendly UI with CSS
+-  Add new tasks  
+-  Edit existing tasks  
+-  Delete tasks  
+-  Mark tasks as completed  
+-  Gradient buttons with hover effects  
+-  Built using functional components, props, and state  
+-  Responsive design with simple CSS (no blur!)
+
 
 ---
 
-##  Screenshot
+## Screenshots
 
-> *(Add your own screenshot below after uploading to GitHub)*
+###  Home Page
 
-![Screenshot](./src/assets/todo-screenshot.png)
+![To-Do App Screenshot](public/image.png)
 
----
+> The app allows adding, editing, completing, and deleting tasks in a clean and responsive interface.
+
 
 ##  Tech Stack
 
-| Tech        | Used For          |
-|-------------|-------------------|
-| React       | Front-end UI      |
-| Vite        | React bundler     |
-| JavaScript  | Logic             |
-| CSS         | Styling           |
+| Technology  | Description              |
+|-------------|--------------------------|
+| React       | JavaScript UI Library    |
+| Vite        | Fast development build tool |
+| CSS         | Custom styling           |
+| Git & GitHub | Version control + hosting |
 
 ---
 
-##  Folder Structure
+##  Installation & Setup
 
-ToDo-app/
-├── public/
-├── src/
-│ ├── components/
-│ │ ├── Header.jsx
-│ │ ├── TodoItem.jsx
-│ │ └── TodoList.jsx
-│ ├── App.jsx
-│ ├── App.css
-│ └── main.jsx
-
-
-
----
-
-##  Installation & Usage
-
-### 1. Clone the repository
+###  Clone the Repository
 
 ```bash
-git clone https://github.com/Raj-2151-raj/react-todo-app.git
-cd react-todo-app
+git clone https://github.com/raj-thakur/todo-app.git
+cd todo-app
