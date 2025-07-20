@@ -2,7 +2,7 @@ import TodoItem from "./TodoItem";
 
 function TodoListt({ todos, onDelete, onToggle, onEdit }) {
   return (
-    <div>
+    <div >
       {todos.map((todo) => (
         <TodoItem
           key={todo.id}

@@ -9,8 +9,8 @@ function TodoItem({ todo, onDelete, onToggle, onEdit }) {
       <span style={{ textDecoration: todo.completed ? "line-through" : "none" }}>
         {todo.text}
       </span>
-      <button onClick={() => onEdit(todo.id)}>Edit</button>
-      <button onClick={() => onDelete(todo.id)}>Delete</button>
+      <button onClick={() => onEdit(todo.id)} className="gradient-button">Edit</button>
+      <button onClick={() => onDelete(todo.id)} className="gradient-button">Delete</button>
     </div>
   );
 }

@@ -59,7 +59,7 @@ function App() {
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
-      <button onClick={addTodo}>
+      <button onClick={addTodo} className="gradient-button">
         {editingId !== null ? "Update" : "Add"}
       </button>
 
